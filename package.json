@@ -1,0 +1,18 @@
+{
+  "name": "google-sheet-csv-tool",
+  "version": "1.0.0",
+  "description": "Download Google sheet as one CSV per sheet/tab",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Tony Tang",
+  "license": "ISC",
+  "dependencies": {
+    "download-google-spreadsheet": "^0.1.1",
+    "google-auth-library": "^0.9.8",
+    "googleapis": "^9.0.0",
+    "lodash": "^4.13.1"
+  }
+}
